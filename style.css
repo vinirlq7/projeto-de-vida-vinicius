@@ -2,12 +2,12 @@
 
 
     :root {
-        --cor-de-fundo: #1E1E1E;
-        --verde: #6FFF57;
+        --cor-de-fundo: #0011ff;
+        --verde: #000000;
         --branco: #FFFFFF;
         --botao-ativo: #3A375E;
         --botao-inativo: rgba(58, 55, 94, 0.5);
-        --texto-fundo: rgba(58, 55, 94, 0.3);
+        --texto-fundo: rgba(155, 10, 10, 0.3);
     }
 
     body {
@@ -92,8 +92,8 @@
     }
 
     .contador{
-        font-size: 20px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
